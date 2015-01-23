@@ -1,93 +1,232 @@
-<!DOCTYPE html>
-<!-- saved from url=(0020)http://www.ii2m.com/ -->
-<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <title>It's too Magical</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
-      color: #535353;
-      background: #fff;
-      overflow: hidden;
-    }
-
-    .willerce {
-      text-align: center;
-      margin: 120px auto auto auto;
-      max-width: 500px;
-      padding: 0 20px;
-    }
-
-    .willerce a {
-      color: #535353;
-      text-decoration: underline;
-    }
-    .willerce a:link,
-    .willerce a:visited {
-      color: #535353;
-      text-decoration: underline;
-    }
-    h1 {
-      font-size: 26px;
-      color: #424242;
-      margin-bottom: 20px;
-    }
-    .avatar {
-      margin-bottom: 35px;
-      border-radius: 64px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    }
-  </style>
-  
-  <!-- 百度统计-->
-  <script>
-  var _hmt = _hmt || [];
-  (function() {
-   var hm = document.createElement("script");
-   hm.src = "//hm.baidu.com/hm.js?b4461e97319aca472b14ff77b743c1df";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-  })();
-  </script>
-  
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="Keywords" content="blog"/>
+    <meta name="Description" content="blog"/>
+    <title>Simple</title>
+    <link rel="shortcut icon" href="/static/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<div class="willerce">
-  <img class="avatar" src="https://raw.githubusercontent.com/lizy0100/lizy0100.github.io/master/images/1.jpg" alt="" width="128" height="128">
-  <h1>It's too Magical</h1>
-  <p><a href="http://www.ii2m.com/about">About Me</a> </p>
-  <p style="height: 24px; line-height: 24px; margin: 15px 0;">
-    <img style="vertical-align: bottom; margin-right: 10px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDE0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggQmV0YSAzLjEgKDg2NTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPmxvY2F0aW9uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2ggQmV0YS48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iSG9tZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9IkFydGJvYXJkLTEiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01MjMuMDAwMDAwLCAtMzgyLjAwMDAwMCkiIGZpbGw9IiMzMzMzMzMiPgogICAgICAgICAgICA8ZyBpZD0ibG9jYXRpb24iIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUyNC4wMDAwMDAsIDM4My4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik01Ljk5NiwtMC4xNzkgQzIuNDU2LC0wLjE3OSAtMC40MjMsMi43MDEgLTAuNDIzLDYuMjQgQy0wLjQyMyw4LjcxNiAxLjkwMSwxMy4yOTIgMy45NzgsMTYuODkxIEMxLjYyLDE3LjI2OSAwLjA2OCwxOC4yNjIgMC4wNjgsMTkuNDYxIEMwLjA2OCwyMS4wMjUgMi42MTcsMjIuMjA1IDUuOTk2LDIyLjIwNSBDOS4zNzUsMjIuMjA1IDExLjkyMywyMS4wMjUgMTEuOTIzLDE5LjQ2MSBDMTEuOTIzLDE4LjI2MiAxMC4zNzIsMTcuMjY5IDguMDE1LDE2Ljg5MSBDMTAuMDkxLDEzLjI4OSAxMi40MTUsOC43MTEgMTIuNDE1LDYuMjQgQzEyLjQxNiwyLjcwMSA5LjUzNSwtMC4xNzkgNS45OTYsLTAuMTc5IEw1Ljk5NiwtMC4xNzkgWiBNNS45OTYsMC42NDIgQzkuMDg0LDAuNjQyIDExLjU5NSwzLjE1MiAxMS41OTUsNi4yNDEgQzExLjU5NSw4Ljc3NSA4LjcyMiwxNC4wNyA3LjAwOCwxNy4wMDQgQzYuNTk0LDE3LjcxMSA2LjIzOSwxOC4yOTMgNS45OTYsMTguNjg5IEM1Ljc1NCwxOC4yOTMgNS40LDE3LjcxMSA0Ljk4NiwxNy4wMDQgQzMuMjcxLDE0LjA3MiAwLjM5Niw4Ljc3OCAwLjM5Niw2LjI0MSBDMC4zOTYsMy4xNTEgMi45MDgsMC42NDIgNS45OTYsMC42NDIgTDUuOTk2LDAuNjQyIFogTTExLjEwNCwxOS40NjIgQzExLjEwNCwyMC4zNzQgOS4wMDYsMjEuMzg3IDUuOTk2LDIxLjM4NyBDMi45ODUsMjEuMzg3IDAuODg3LDIwLjM3NCAwLjg4NywxOS40NjIgQzAuODg3LDE4Ljc4MiAyLjIwMSwxNy45MzcgNC40MTQsMTcuNjQ4IEM0LjUyLDE3LjgzIDQuNjEsMTcuOTc3IDQuNzA2LDE4LjEzOSBDNC43NTgsMTguMjI4IDQuODE0LDE4LjMyIDQuODY0LDE4LjQwNCBDNC45ODcsMTguNjA1IDUuMDg5LDE4Ljc3MyA1LjE4NiwxOC45MzMgQzUuMjE3LDE4Ljk4MyA1LjI1LDE5LjAzOCA1LjI3OCwxOS4wODMgQzUuMzg0LDE5LjI1NiA1LjQ2NiwxOS4zODggNS41MjgsMTkuNDg5IEM1LjUzNCwxOS40OTcgNS41NDQsMTkuNTEzIDUuNTUsMTkuNTIzIEM1LjYxMiwxOS42MjQgNS42NDksMTkuNjggNS42NDksMTkuNjggTDUuOTk0LDIwLjIyNSBMNi4zNDEsMTkuNjggQzYuMzQxLDE5LjY4IDYuMzc0LDE5LjYyOCA2LjQzNSwxOS41MzIgQzYuNDQ5LDE5LjUxIDYuNDY5LDE5LjQ3NSA2LjQ4OCwxOS40NDYgQzYuNTUsMTkuMzUgNi42MjEsMTkuMjM1IDYuNzE3LDE5LjA3NyBDNi43MzksMTkuMDQzIDYuNzY1LDE5IDYuNzg4LDE4Ljk2NCBDNi44OSwxOC43OTUgNy4wMDIsMTguNjEyIDcuMTMyLDE4LjM5NiBDNy4xNzYsMTguMzIyIDcuMjI3LDE4LjIzNiA3LjI3NSwxOC4xNTYgQzcuMzc0LDE3Ljk5IDcuNDY4LDE3LjgzNSA3LjU3OCwxNy42NDggQzkuNzkyLDE3LjkzNyAxMS4xMDQsMTguNzgyIDExLjEwNCwxOS40NjIgTDExLjEwNCwxOS40NjIgWiIgaWQ9IlNoYXBlIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTAuMDEzLDYuMjQgQzEwLjAxMyw0LjAyNiA4LjIxMSwyLjIyNSA1Ljk5NiwyLjIyNSBDMy43ODIsMi4yMjUgMS45ODEsNC4wMjYgMS45ODEsNi4yNCBDMS45ODEsOC40NTYgMy43ODIsMTAuMjU5IDUuOTk2LDEwLjI1OSBDOC4yMSwxMC4yNTkgMTAuMDEzLDguNDU2IDEwLjAxMyw2LjI0IEwxMC4wMTMsNi4yNCBaIE0yLjgwMSw2LjI0IEMyLjgwMSw0LjQ3NyA0LjIzNSwzLjA0NSA1Ljk5NiwzLjA0NSBDNy43NTksMy4wNDUgOS4xOTIsNC40NzggOS4xOTIsNi4yNCBDOS4xOTIsOC4wMDQgNy43NTgsOS40MzggNS45OTYsOS40MzggQzQuMjM0LDkuNDM4IDIuODAxLDguMDA0IDIuODAxLDYuMjQgTDIuODAxLDYuMjQgWiIgaWQ9IlNoYXBlIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==">
-    Jinan · China
-  </p>
-  <p>
---------------------------------------------------------------
-  </p>
-  <p>
-  ii2m = "it is too Magical"
-  </p>
-  <p>
---------------------------------------------------------------
-  </p>
-  <p>
-    <a href="http://www.ii2m.com/blog">Blog</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/lizy0100" target="_blank">Github</a>
-    &nbsp;·&nbsp;
-    <a href="https://twitter.com/lizy0100" target="_blank">Twitter</a>
-    &nbsp;·&nbsp;
-    <a href="https://weibo.com/lizy0100" target="_blank">Weibo</a>
-    &nbsp;·&nbsp;
-    <a href="http://www.linkedin.com/in/lizy0100" target="_blank">Linkedin</a>
-    &nbsp;·&nbsp;
-    <a href="mailto:lizy0100@gmail.com">Email</a>
-  </p>
+<div class="main">
+    <div class="header">
+        <ul id="pages">
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/#/tags">tags</a>
+            </li>
+            <li>
+                <a href="/#/archive">archive</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrap-header">
+        <h1>
+        <a href="/" id="title"></a>
+        </h1>
+    </div>
+    <div class="innermain" id="main">
+    </div>
+    <div class="footer">
+        <p>© Copyright 2014 by isnowfy, Designed by isnowfy</p>
+    </div>
 </div>
-
-</body></html>
+<script src="main.js"></script>
+<script id="itemTemplate" type="text/mustache">
+    {{#posts}}
+    <div class="item">
+        <div class="date">
+            <div class="little">
+            </div>
+            {{date}}
+        </div>
+        <div class="title">
+            <h2>
+                <a href="{{path}}">{{title}}</a>
+            </h2>
+        </div>
+    </div>
+    {{/posts}}
+    <ul class="pages">
+        Pages:
+        {{#pages}}
+            <li>
+            {{#select}}
+                <span class="selected">{{num}}</span>
+            {{/select}}
+            {{^select}}
+                <a href="{{path}}">{{num}}</a>
+            {{/select}}
+            </li>
+        {{/pages}}
+    </ul>
+</script>
+<script id="archiveTemplate" type="text/mustache">
+    {{#group}}
+    {{name}}
+    {{#posts}}
+    <div class="archive">
+    <span>{{date}}</span>
+    <a href="{{path}}">{{title}}</a>
+    </div>
+    {{/posts}}
+    {{/group}}
+</script>
+<script id="pagesTemplate" type="text/mustache">
+    {{#pages}}
+    <li>
+        <a href="{{path}}">{{title}}</a>
+    </li>
+    {{/pages}}
+</script>
+<script id="tagsTemplate" type="text/mustache">
+    <ul style="list-style: none">
+        {{#tags}}
+        <li style="display:inline; margin: 15px;">
+            <a href="{{path}}" style="font-size: {{size}}%">{{name}}</a>
+        </li>
+        {{/tags}}
+    </ul>
+</script>
+<script>
+$(document).ready(function() {
+    $.ajax({
+        url: "main.json",
+        type: "GET",
+        dataType: "json",
+        success: function(data) {
+            $("#title").html(data.name);
+            data.posts.sort(function(a, b){
+                if (a.date > b.date)
+                    return -1;
+                if (a.date < b.date)
+                    return 1;
+                return 0;
+            });
+            console.log(data.posts);
+            var per = data.number_of_posts_per_page;
+            var n = data.posts.length;
+            var num = Math.floor((n-1)/per)+1;
+            var arr = [];
+            var tmp = [];
+            for (var i = 0; i < n; ++i) {
+                if (i != 0 && i % per == 0) {
+                    arr.push(tmp)
+                    tmp = [];
+                }
+                tmp.push(data.posts[i]);
+            }
+            if (tmp.length > 0)
+                arr.push(tmp);
+            var pages = [{"select": true, "num": 1, "path": "#/page/1"}];
+            for (var i = 1; i < num; ++i)
+                pages.push({"select": false, "num": i+1, "path": "#/page/"+(i+1)});
+            var itemTemplate = Hogan.compile($("#itemTemplate").html());
+            var itemHtml = itemTemplate.render({"posts": arr[0], "pages": pages});
+            $("#main").html(itemHtml);
+            var pagesTemplate = Hogan.compile($("#pagesTemplate").html());
+            var pagesHtml = pagesTemplate.render({"pages": data.pages});
+            $("#pages").append(pagesHtml);
+            var App = Spine.Controller.sub({
+                el: $("#main"),
+                init: function() {
+                    this.routes({
+                        "/page/:page": function(page) {this.go(page);},
+                        "/tags": function() {this.tags();},
+                        "/tag/:tag": function(param) {this.tag(param);},
+                        "/archive": function() {this.archive();}
+                    });
+                    Spine.Route.setup();
+                },
+                go: function(page) {
+                    page = Math.floor(page.page);
+                    for (var i = 0; i < pages.length; ++i)
+                        pages[i].select = false;
+                    pages[page-1].select = true;
+                    var tmppages = pages;
+                    if (page > 2 && pages.length > 4)
+                        tmppages = pages.slice(page-3);
+                    if (tmppages.length > 5)
+                        tmppages = tmppages.slice(0, 5);
+                    if (pages.length > 4 && tmppages.length < 5)
+                        tmppages = pages.slice(-5);
+                    itemHtml = itemTemplate.render({"posts": arr[page-1], "pages": tmppages});
+                    $("#main").html(itemHtml);
+                },
+                tags: function() {
+                    var ts = {};
+                    var posts = data.posts;
+                    var tf = function() {
+                        for (var i = 0; i < posts.length; ++i) {
+                            var tmp = posts[i].tags.split(" ");
+                            for (var j = 0; j < tmp.length; ++j) {
+                                if (tmp[j].length == 0)
+                                    continue;
+                                if (!(tmp[j] in ts))
+                                    ts[tmp[j]] = 0;
+                                ts[tmp[j]]++;
+                            }
+                        }
+                    }
+                    tf();
+                    posts = data.pages;
+                    tf();
+                    var ans = [];
+                    for (var k in ts) {
+                        ans.push({"name": "#"+k, "size": 100+Math.sqrt(ts[k]-1)*30, "path": "#/tag/"+k});
+                    }
+                    var tagsTemplate = Hogan.compile($("#tagsTemplate").html());
+                    var tagsHtml = tagsTemplate.render({"tags": ans});
+                    $("#main").html(tagsHtml);
+                },
+                tag: function(param) {
+                    var tag = param.tag;
+                    var group = [{"name": "#"+tag}];
+                    var posts = [];
+                    for (var i = 0; i < data.posts.length; ++i) {
+                        var tmp = data.posts[i].tags.split(" ");
+                        if (tmp.indexOf(tag) != -1)
+                            posts.push(data.posts[i]);
+                    }
+                    for (var i = 0; i < data.pages.length; ++i) {
+                        var tmp = data.pages[i].tags.split(" ");
+                        if (tmp.indexOf(tag) != -1)
+                            posts.push(data.pages[i]);
+                    }
+                    group[0].posts = posts;
+                    var tmpTemplate = Hogan.compile($("#archiveTemplate").html());
+                    var tmpHtml = tmpTemplate.render({"group": group});
+                    $("#main").html(tmpHtml);
+                },
+                archive: function() {
+                    var group = [];
+                    var posts = data.posts;
+                    var now = -1;
+                    var name = "";
+                    for (var i = 0; i < posts.length; ++i) {
+                        if (name != posts[i].date.slice(0,4)) {
+                            name = posts[i].date.slice(0,4);
+                            group.push({"name": name, "posts": []});
+                            now++;
+                        }
+                        group[now].posts.push(posts[i]);
+                    }
+                    var tmpTemplate = Hogan.compile($("#archiveTemplate").html());
+                    var tmpHtml = tmpTemplate.render({"group": group});
+                    $("#main").html(tmpHtml);
+                }
+            });
+            new App();
+        },
+        error: function(e) {
+            console.log("init error");
+        }
+    });    
+});
+</script>
+</body>
+</html>
