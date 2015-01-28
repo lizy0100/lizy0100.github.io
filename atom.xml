@@ -4,7 +4,7 @@
   <subtitle><![CDATA[程序猿，[硬件]产品研发，[软件]系统架构，未来的昏析师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-01-28T09:55:42.421Z</updated>
+  <updated>2015-01-28T09:58:23.465Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/"/>
     <id>http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/</id>
     <published>2015-01-28T09:47:53.000Z</published>
-    <updated>2015-01-28T09:55:31.000Z</updated>
+    <updated>2015-01-28T09:57:37.000Z</updated>
     <content type="html"><![CDATA[<h2 id="MarkdownEditing">MarkdownEditing</h2>
 <p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more robust syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, GitHub flavored Markdown, MultiMarkdown.<br><a href="https://github.com/SublimeText-Markdown/MarkdownEditing#installation" target="_blank" rel="external">MarkdownEditing</a></p>
 <h2 id="Installation">Installation</h2>
