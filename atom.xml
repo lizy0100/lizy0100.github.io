@@ -4,7 +4,7 @@
   <subtitle><![CDATA[程序猿，[硬件]产品研发，[软件]系统架构，未来的昏析师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-01-28T08:45:12.168Z</updated>
+  <updated>2015-01-28T09:55:42.421Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
@@ -15,11 +15,80 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[MarkdownEditing:Sublime Text 3 的 Markdown 利器]]></title>
+    <link href="http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/"/>
+    <id>http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/</id>
+    <published>2015-01-28T09:47:53.000Z</published>
+    <updated>2015-01-28T09:55:31.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="MarkdownEditing">MarkdownEditing</h2>
+<p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more robust syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, GitHub flavored Markdown, MultiMarkdown.<br><a href="https://github.com/SublimeText-Markdown/MarkdownEditing#installation" target="_blank" rel="external">MarkdownEditing</a></p>
+<h2 id="Installation">Installation</h2>
+<p>Note: Sublime text has a native tiny package for Markdown. However, when MarkdownEditing is enabled, native package causes some conflicts. For this reason, MarkdownEditing will automatically disable it. Since it doesn’t bring anything new over MarkdownEditing, this is not a loss. But remember, when you disable MarkdownEditing, you have to reenable the native one manually (if you want).</p>
+<p>If you are using Sublime Text 2, you have to disable the native package manually. To do that, add Markdown to your ignored_packages list in ST user settings:</p>
+<p><code>&quot;ignored_packages&quot;: [..., &quot;Markdown&quot;],</code></p>
+<h2 id="Package_Control">Package Control</h2>
+<p>The preferred method of installation is via <a href="http://wbond.net/sublime_packages/package_control" target="_blank" rel="external">Sublime Package Control</a>.</p>
+<p><a href="http://wbond.net/sublime_packages/package_control/installation" target="_blank" rel="external">Install Sublime Package Control</a><br>From inside Sublime Text, open Package Control’s Command Pallet: CTRL SHIFT P (Windows, Linux) or CMD SHIFT P on Mac.<br>Type install package and hit Return. A list of available packages will be displayed.<br>Type MarkdownEditing and hit Return. The package will be downloaded to the appropriate directory.<br>Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.</p>
+<p><img src="https://camo.githubusercontent.com/35a66d68a55666133ba7911fb0ea61277740680f/68747470733a2f2f7261772e6769746875622e636f6d2f5375626c696d65546578742d4d61726b646f776e2f4d61726b646f776e45646974696e672f6d61737465722f73637265656e73686f74732f6c696768742e706e67" alt="sample"></p>
+<h2 id="Q&amp;a">Q&amp;a</h2>
+<blockquote>
+<p>Q:Sublime Text(3)通过Package control安装MarkdownEditing,删除之后每次启动都报错,怎么清除相关的错误？<br>A：Preference -&gt; Package Settings -&gt; Package Controll -&gt; Settings User<br>打开后删除 markdownediting 一行即可<br>Sublime Text(3)通过Package control安装MarkdownEditing后，提示此错误：<br>我是通过以下办法解决的，<br>Ctrl+Shift+p<br>set syntax markdown<br>选择：<br>set syntax：MultiMarkdown<br>解决！</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="MarkdownEditing">MarkdownEditing</h2>
+<p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) ]]>
+    </summary>
+    
+      <category term="MKD" scheme="http://www.ii2m.com/categories/MKD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo 命令]]></title>
+    <link href="http://www.ii2m.com/2015/01/28/hexo/"/>
+    <id>http://www.ii2m.com/2015/01/28/hexo/</id>
+    <published>2015-01-28T08:50:23.000Z</published>
+    <updated>2015-01-28T09:48:51.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="只需要几个简单命令，你就可以完成一切。">只需要几个简单命令，你就可以完成一切。</h3>
+<figure class="highlight"><pre><div class="line"><span class="title">hexo</span> n <span class="comment">#写文章</span></div><div class="line">hexo g <span class="comment">#生成</span></div><div class="line">hexo d <span class="comment">#部署 # 可与hexo g合并为 hexo d -g</span></div></pre></figure>
+
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
+<h2 id="常用命令：">常用命令：</h2>
+<figure class="highlight"><pre><div class="line">hexo <span class="keyword">new</span> <span class="string">"postName"</span> <span class="preprocessor">#新建文章</span></div><div class="line">hexo <span class="keyword">new</span> page <span class="string">"pageName"</span> <span class="preprocessor">#新建页面</span></div><div class="line">hexo generate <span class="preprocessor">#生成静态页面至public目录</span></div><div class="line">hexo <span class="keyword">server</span> <span class="preprocessor">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></div><div class="line">hexo deploy <span class="preprocessor">#将.deploy目录部署到GitHub</span></div></pre></figure>
+
+<h2 id="常用复合命令：">常用复合命令：</h2>
+<figure class="highlight"><pre><div class="line">hexo deploy -g</div><div class="line">hexo <span class="keyword">server</span> -g</div></pre></figure>
+
+<h2 id="简写：">简写：</h2>
+<figure class="highlight"><pre><div class="line">hexo <span class="variable">n =</span>= hexo new</div><div class="line">hexo <span class="variable">g =</span>= hexo generate</div><div class="line">hexo <span class="variable">s =</span>= hexo server</div><div class="line">hexo <span class="variable">d =</span>= hexo deploy</div></pre></figure>
+
+<h2 id="自定义页面">自定义页面</h2>
+<h3 id="执行new_page命令">执行new page命令</h3>
+<pre><code>hexo <span class="keyword">new</span> page <span class="string">"about"</span>
+</code></pre><p>在hexo\source\下会生成about目录，里面有个index.md，直接编辑就可以了，然后在主题的_config.yml中将其配置显示出来。<br>上述步骤，也可以手工生成，在hexo\source\下手工新建about和index.md也是完全等价的。</p>
+<blockquote>
+<p>因为markdown对table的支持不好，我是在about中直接建立index.tml，里面书写页面内容，hexo会帮你加上头和尾。  </p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="只需要几个简单命令，你就可以完成一切。">只需要几个简单命令，你就可以完成一切。</h3>
+<figure class="highlight"><pre><div class="line"><span class="title">hexo</span> n <span class="comment">#写文章</span></div><div class="line">hexo g <span class="comment">#生成</span></div><div class="line">hexo d <span class="comment">#部署 # 可与hexo g合并为 hexo d -g</span></div></pre></figure>
+
+<p><em>以上是摘要&gt;&gt;]]>
+    
+    </summary>
+    
+      <category term="HEXO" scheme="http://www.ii2m.com/categories/HEXO/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Markdown语法]]></title>
     <link href="http://www.ii2m.com/2015/01/28/markdown/"/>
     <id>http://www.ii2m.com/2015/01/28/markdown/</id>
     <published>2015-01-28T05:56:20.000Z</published>
-    <updated>2015-01-28T06:45:20.000Z</updated>
+    <updated>2015-01-28T09:37:58.000Z</updated>
     <content type="html"><![CDATA[<p>为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。<br>怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
 <p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
 <p>在哪可以使用Markdown？ 你可以在简书、Logdown这样的免费平台用Markdown写博客。如果你愿意折腾，也可以像我一样，使用hexo搭建自己的博客，并用Markdown书写博客，请参考拙作《hexo系列教程》。另外，现在写论文也流行使用Markdown，不学你就out了！<br>怎样开始？打开这个网址，把下面学到的东西在这个里面练习。左侧是Markdown，右侧是实时的显示。<br>还要注意什么？一个效果，有时候可以通过不同的方式生成，比如无序列表可以用- + *。本文从实践出发，只列举最好用的一种。读者也只需要学习一种。</p>
