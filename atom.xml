@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[It's too Magical]]></title>
+  <subtitle><![CDATA[程序猿，[硬件]产品研发，[软件]系统架构，未来的昏析师]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.ii2m.com/"/>
+  <updated>2015-02-09T14:51:50.759Z</updated>
+  <id>http://www.ii2m.com/</id>
+  
+  <author>
+    <name><![CDATA[Byron]]></name>
+    <email><![CDATA[196886521@qq.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[MarkdownEditing:Sublime Text 3 的 Markdown 利器]]></title>
+    <link href="http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/"/>
+    <id>http://www.ii2m.com/2015/01/28/Sublime-Text-3-MarkdownEditing/</id>
+    <published>2015-01-28T09:47:53.000Z</published>
+    <updated>2015-01-30T15:55:44.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="MarkdownEditing">MarkdownEditing</h2>
+<p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more robust syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, GitHub flavored Markdown, MultiMarkdown.<br><a href="https://github.com/SublimeText-Markdown/MarkdownEditing#installation" target="_blank" rel="external">MarkdownEditing</a></p>
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
+<h2 id="Installation">Installation</h2>
+<p>Note: Sublime text has a native tiny package for Markdown. However, when MarkdownEditing is enabled, native package causes some conflicts. For this reason, MarkdownEditing will automatically disable it. Since it doesn’t bring anything new over MarkdownEditing, this is not a loss. But remember, when you disable MarkdownEditing, you have to reenable the native one manually (if you want).</p>
+<p>If you are using Sublime Text 2, you have to disable the native package manually. To do that, add Markdown to your ignored_packages list in ST user settings:</p>
+<p><code>&quot;ignored_packages&quot;: [..., &quot;Markdown&quot;],</code></p>
+<h2 id="Package_Control">Package Control</h2>
+<p>The preferred method of installation is via <a href="http://wbond.net/sublime_packages/package_control" target="_blank" rel="external">Sublime Package Control</a>.</p>
+<p><a href="http://wbond.net/sublime_packages/package_control/installation" target="_blank" rel="external">Install Sublime Package Control</a><br>From inside Sublime Text, open Package Control’s Command Pallet: CTRL SHIFT P (Windows, Linux) or CMD SHIFT P on Mac.<br>Type install package and hit Return. A list of available packages will be displayed.<br>Type MarkdownEditing and hit Return. The package will be downloaded to the appropriate directory.<br>Restart Sublime Text to complete installation. Open a Markdown file and this custom theme. The features listed above should now be available.</p>
+<p><img src="https://camo.githubusercontent.com/35a66d68a55666133ba7911fb0ea61277740680f/68747470733a2f2f7261772e6769746875622e636f6d2f5375626c696d65546578742d4d61726b646f776e2f4d61726b646f776e45646974696e672f6d61737465722f73637265656e73686f74732f6c696768742e706e67" alt="sample"></p>
+<h2 id="Q&amp;a">Q&amp;a</h2>
+<blockquote>
+<p>Q:Sublime Text(3)通过Package control安装MarkdownEditing,删除之后每次启动都报错,怎么清除相关的错误？<br>A：Preference -&gt; Package Settings -&gt; Package Controll -&gt; Settings User<br>打开后删除 markdownediting 一行即可<br>Sublime Text(3)通过Package control安装MarkdownEditing后，提示此错误：<br>我是通过以下办法解决的，<br>Ctrl+Shift+p<br>set syntax markdown<br>选择：<br>set syntax：MultiMarkdown<br>解决！</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="MarkdownEditing">MarkdownEditing</h2>
+<p>Markdown plugin for Sublime Text. Provides a decent Markdown color scheme (light and dark) with more robust syntax highlighting and useful Markdown editing features for Sublime Text. 3 flavors are supported: Standard Markdown, GitHub flavored Markdown, MultiMarkdown.<br><a href="https://github.com/SublimeText-Markdown/MarkdownEditing#installation" target="_blank" rel="external">MarkdownEditing</a></p>
+<p><em>以上是摘要&gt;&gt;]]>
+    
+    </summary>
+    
+      <category term="Sublime" scheme="http://www.ii2m.com/tags/Sublime/"/>
+    
+      <category term="工具" scheme="http://www.ii2m.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo 命令]]></title>
+    <link href="http://www.ii2m.com/2015/01/28/hexo/"/>
+    <id>http://www.ii2m.com/2015/01/28/hexo/</id>
+    <published>2015-01-28T08:50:23.000Z</published>
+    <updated>2015-01-30T15:56:58.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="只需要几个简单命令，你就可以完成一切。">只需要几个简单命令，你就可以完成一切。</h3>
+<figure class="highlight"><pre><div class="line"><span class="title">hexo</span> n <span class="comment">#写文章</span></div><div class="line">hexo g <span class="comment">#生成</span></div><div class="line">hexo d <span class="comment">#部署 # 可与hexo g合并为 hexo d -g</span></div></pre></figure>
+
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
+<h2 id="常用命令：">常用命令：</h2>
+<figure class="highlight"><pre><div class="line">hexo <span class="keyword">new</span> <span class="string">"postName"</span> <span class="preprocessor">#新建文章</span></div><div class="line">hexo <span class="keyword">new</span> page <span class="string">"pageName"</span> <span class="preprocessor">#新建页面</span></div><div class="line">hexo generate <span class="preprocessor">#生成静态页面至public目录</span></div><div class="line">hexo <span class="keyword">server</span> <span class="preprocessor">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></div><div class="line">hexo deploy <span class="preprocessor">#将.deploy目录部署到GitHub</span></div></pre></figure>
+
+<h2 id="常用复合命令：">常用复合命令：</h2>
+<figure class="highlight"><pre><div class="line">hexo deploy -g</div><div class="line">hexo <span class="keyword">server</span> -g</div></pre></figure>
+
+<h2 id="简写：">简写：</h2>
+<figure class="highlight"><pre><div class="line">hexo <span class="variable">n =</span>= hexo new</div><div class="line">hexo <span class="variable">g =</span>= hexo generate</div><div class="line">hexo <span class="variable">s =</span>= hexo server</div><div class="line">hexo <span class="variable">d =</span>= hexo deploy</div></pre></figure>
+
+<h2 id="自定义页面">自定义页面</h2>
+<h3 id="执行new_page命令">执行new page命令</h3>
+<pre><code>hexo <span class="keyword">new</span> page <span class="string">"about"</span>
+</code></pre><p>在hexo\source\下会生成about目录，里面有个index.md，直接编辑就可以了，然后在主题的_config.yml中将其配置显示出来。<br>上述步骤，也可以手工生成，在hexo\source\下手工新建about和index.md也是完全等价的。</p>
+<blockquote>
+<p>因为markdown对table的支持不好，我是在about中直接建立index.tml，里面书写页面内容，hexo会帮你加上头和尾。  </p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="只需要几个简单命令，你就可以完成一切。">只需要几个简单命令，你就可以完成一切。</h3>
+<figure class="highlight"><pre><div class="line"><span class="title">hexo</span> n <span class="comment">#写文章</span></div><div class="line">hexo g <span class="comment">#生成</span></div><div class="line">hexo d <span class="comment">#部署 # 可与hexo g合并为 hexo d -g</span></div></pre></figure>
+
+<p><em>以上是摘要&gt;&gt;]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
+    
+      <category term="Hexo" scheme="http://www.ii2m.com/categories/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Markdown语法]]></title>
+    <link href="http://www.ii2m.com/2015/01/28/markdown/"/>
+    <id>http://www.ii2m.com/2015/01/28/markdown/</id>
+    <published>2015-01-28T05:56:20.000Z</published>
+    <updated>2015-01-30T15:55:15.000Z</updated>
+    <content type="html"><![CDATA[<p>为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。<br>怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
+<p>在哪可以使用Markdown？ 你可以在简书、Logdown这样的免费平台用Markdown写博客。如果你愿意折腾，也可以像我一样，使用hexo搭建自己的博客，并用Markdown书写博客，请参考拙作《hexo系列教程》。另外，现在写论文也流行使用Markdown，不学你就out了！<br>怎样开始？打开这个网址，把下面学到的东西在这个里面练习。左侧是Markdown，右侧是实时的显示。<br>还要注意什么？一个效果，有时候可以通过不同的方式生成，比如无序列表可以用- + *。本文从实践出发，只列举最好用的一种。读者也只需要学习一种。</p>
+<p>以下是Markdown代码：</p>
+<figure class="highlight"><pre><div class="line"><span class="header">#这里是一级标题</span></div><div class="line"><span class="header">###这里是三级标题</span></div><div class="line"><span class="header">######这里是六级标题，就到这里了，木有七级！</span></div><div class="line"></div><div class="line">段落前面没有缩进，看到了吧。</div><div class="line"></div><div class="line">　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格</div><div class="line"></div><div class="line">行尾一个回车换行，显示效果依然是是一行。</div><div class="line">我说的对吧~</div><div class="line"></div><div class="line">想要分成两行，需要在行尾输入两个空格。  </div><div class="line">我说的对吧~</div><div class="line"></div><div class="line">想要开始一个新的段落，乖乖的按两下回车吧</div><div class="line"></div><div class="line">我说的对吧~</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="strong">**两个星号包围的是粗体**</span></div><div class="line"></div><div class="line"><span class="emphasis">*一个星号包围的是斜体*</span></div><div class="line"></div><div class="line"><span class="blockquote">&gt; 引用内容，多行的话，用两个空格结尾吧  </span></div><div class="line">是吧~</div><div class="line"></div><div class="line"></div><div class="line"><span class="code">`反引号包围的是行内代码`</span>，这个按键在「Tab」上边</div><div class="line"></div><div class="line"><span class="code">``嵌套的话，可以使用`</span>两个双引号<span class="code">`嵌套在外面`</span>`</div><div class="line"></div><div class="line">\<span class="code">`\`</span>\` python [不想让Markdown解析字符就用\转义它”]</div><div class="line"><span class="header">#三个反引号包围的是代码块。</span></div><div class="line"><span class="header">#会显示行号。</span></div><div class="line"><span class="header">#也有高亮显示</span></div><div class="line"><span class="header">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。</span></div><div class="line"><span class="header">#另外，如果你的代码块包围的是html，那你应该写html而不是python</span></div><div class="line">import os</div><div class="line">print os.sep</div><div class="line">\<span class="code">`\`</span>\` [不想让Markdown解析字符就用\转义它”]</div><div class="line"></div><div class="line">嵌套的话，可以使用六个反引号嵌套在外面。</div><div class="line"></div><div class="line"></div><div class="line"><span class="bullet">1. </span>有序列表1，注意点之后的空格。</div><div class="line"><span class="bullet">2. </span>有序列表2.</div><div class="line"><span class="bullet">1. </span>我这里写成1，在显示时还是3，厉害不。</div><div class="line"></div><div class="line"><span class="bullet">1. </span>有序列表1</div><div class="line"> 详细内容，注意前面有一个空格</div><div class="line"><span class="bullet">2. </span>有序列表2</div><div class="line"> 详细内容</div><div class="line"></div><div class="line"><span class="bullet">- </span>无序列表1</div><div class="line"><span class="bullet">- </span>无序列表2</div><div class="line"><span class="bullet">- </span>无序列表3</div><div class="line"> - 小1，注意前面有一个空格</div><div class="line"> - 小2</div><div class="line"></div><div class="line">超级链接：[<span class="link_label">我的博客</span>](<span class="link_url">http://zipperary.com</span>)</div><div class="line"></div><div class="line">插入图片：![<span class="link_label">好看不</span>](<span class="link_url">http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg</span>)</div><div class="line"></div><div class="line">另外，markdown完全兼容html，你可以用html插入这些东西，例如：</div><div class="line"></div><div class="line"><span class="xml"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> </span></span></div><div class="line"><span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></span></div><div class="line"></div><div class="line"></div><div class="line">~~删除线~~</div><div class="line"></div><div class="line"></div><div class="line">分割线用<span class="code">`---`</span>，注意单独一样，上面必须是一个空行</div><div class="line"></div><div class="line"><span class="horizontal_rule">---</span></div><div class="line"></div><div class="line">更多高级的格式，请果断插入html标签</div></pre></figure>
+
+<p>以下到结尾处是效果：</p>
+<h1 id="这里是一级标题">这里是一级标题</h1>
+<h3 id="这里是三级标题">这里是三级标题</h3>
+<h6 id="这里是六级标题，就到这里了，木有七级！">这里是六级标题，就到这里了，木有七级！</h6>
+<p>段落前面没有缩进，看到了吧。</p>
+<p>　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格</p>
+<p>行尾一个回车换行，显示效果依然是是一行。<br>我说的对吧~</p>
+<p>想要分成两行，需要在行尾输入两个空格。<br>我说的对吧~</p>
+<p>想要开始一个新的段落，乖乖的按两下回车吧</p>
+<p>我说的对吧~</p>
+<p><strong>两个星号包围的是粗体</strong></p>
+<p><em>一个星号包围的是斜体</em></p>
+<blockquote>
+<p>引用内容，多行的话，用两个空格结尾吧<br>是吧~</p>
+</blockquote>
+<p><code>反引号包围的是行内代码</code>，这个按键在「Tab」上边</p>
+<p><code>嵌套的话，可以使用`两个双引号`嵌套在外面</code></p>
+<figure class="highlight python"><pre><div class="line"><span class="comment">#三个反引号包围的是代码块。</span></div><div class="line"><span class="comment">#会显示行号。</span></div><div class="line"><span class="comment">#也有高亮显示</span></div><div class="line"><span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。</span></div><div class="line"><span class="comment">#另外，如果你的代码块包围的是html，那你应该写html而不是python</span></div><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">print</span> os.sep</div></pre></figure>
+
+<p>嵌套的话，可以使用六个反引号嵌套在外面。</p>
+<ol>
+<li>有序列表1，注意点之后的空格。</li>
+<li>有序列表2.</li>
+<li><p>我这里写成1，在显示时还是3，厉害不。</p>
+</li>
+<li><p>有序列表1<br>详细内容，注意前面有一个空格</p>
+</li>
+<li>有序列表2<br>详细内容</li>
+</ol>
+<ul>
+<li>无序列表1</li>
+<li>无序列表2</li>
+<li>无序列表3<ul>
+<li>小1，注意前面有一个空格</li>
+<li>小2</li>
+</ul>
+</li>
+</ul>
+<p>超级链接：<a href="http://zipperary.com" target="_blank" rel="external">我的博客</a></p>
+<p>插入图片：<img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt="好看不"></p>
+<p>另外，markdown完全兼容html，你可以用html插入这些东西，例如：</p>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XMjI2MjU3MDMy" frameborder="0" allowfullscreen></iframe>
+
+
+<p><del>删除线</del></p>
+<p>分割线用<code>---</code>，注意单独一样，上面必须是一个空行</p>
+<hr>
+<p>更多高级的格式，请果断插入html标签</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。<br>怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
+<p><em>以上是摘要&gt;&gt;]]>
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://www.ii2m.com/tags/Markdown/"/>
+    
+      <category term="学习" scheme="http://www.ii2m.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://www.ii2m.com/2015/01/23/hello-world/"/>
+    <id>http://www.ii2m.com/2015/01/23/hello-world/</id>
+    <published>2015-01-23T05:56:20.000Z</published>
+    <updated>2015-01-30T15:56:28.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo server</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo generate</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><pre><div class="line">$ hexo deploy</div></pre></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<p><em>以上是摘要&gt;&gt;]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
+    
+      <category term="测试" scheme="http://www.ii2m.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
