@@ -1,0 +1,23 @@
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
+  about: /about
+
+favicon: /favicon.ico
+feed: /atom.xml
+
+# Code Highlight theme
+## Available value: normal | night | night eighties | night blue | night bright
+## https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night eighties
+
+# Fancybox
+fancybox: true
+
+baidu_analytics: true
+
+# Specify the date when the site was setup
+since: 2015
+
+version: 0.1.2
