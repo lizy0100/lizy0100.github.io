@@ -1,119 +1,96 @@
-<!doctype html>
-<html lang="zh">
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+  
+    <title>Markdown语法 | It&#39;s too Magical</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="Byron">
+    
+    <meta name="description" content="为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。
+以上是摘要&amp;gt;&amp;gt;">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/Tinny.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/Tinny.jpg">
+    
+
+	
+	<link href="http://cdn.bootcss.com/highlight.js/8.2/styles/railscasts.min.css" rel="stylesheet">
+	<script src="http://cdn.bootcss.com/highlight.js/8.2/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
-
-
-<link rel="stylesheet" type="text/css" href="/css/main.css"/>
-
-
-    <meta name="description" content="blog | java | scala | bi" />
-
-
-
-
-
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-
-
-  <title> Markdown语法 | It's too Magical </title>
 </head>
 
-<body>
-  <div class="container one-column">
+  <body>
+    <header>
+      <div>
+		
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="It&#39;s too Magical">It&#39;s too Magical</a></h1>
+				<h2 class="blog-motto">程序猿，[硬件]产品研发，[软件]系统架构，未来的昏析师</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+                    <ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于我</a></li>
+					
+					<li>
+					
+					</li>
+                <li><div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div></li>
 
-    <div id="header" class="header">
-      <div class="header-inner">
-        
+				</ul>
+			</nav>	
+</div>
 
-
-
-<h1 class="site-meta ">
-    <a href="/" class="brand">
-        <span class="logo the-shape"></span>
-        <span class="site-title">It's too Magical</span>
-    </a>
+    </header>
+    <div id="container" class="clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-</h1>
-
-
-  <ul id="menu" class="menu">
+      <a href="/2015/01/28/markdown/" title="Markdown语法" itemprop="url">Markdown语法</a>
+  </h1>
+  <p class="article-author">By
     
-      
-      <li class="menu-item menu-item-home">
-        <a href="/" title="home">home</a>
-      </li>
+      <a href="http://www.ii2m.com" title="Byron">Byron</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2015-01-28T05:56:20.000Z" itemprop="datePublished">1月 28 2015</time>
+    更新日期:<time datetime="2015-01-30T15:55:15.000Z" itemprop="dateModified">1月 30 2015</time>
     
-      
-      <li class="menu-item menu-item-archives">
-        <a href="/archives" title="archives">archives</a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-tags">
-        <a href="/tags" title="tags">tags</a>
-      </li>
-    
-      
-      <li class="menu-item menu-item-about">
-        <a href="/about" title="about">about</a>
-      </li>
-    
-  </ul>
-
-      </div>
-    </div>
-
-    <div id="main" class="main">
-      <div class="main-inner">
-        <div id="content" class="content">
-
-          
-            
-          
-
-          <div id="posts" class="posts-expand">
-            
-  
-
-  <div class="post post-type-normal">
-    <div class="post-header">
-
-      <div class="post-meta">
-          <span class="post-time">
-            
-              Posted on 2015-01-28
-            
-          </span>
-      </div>
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              Markdown语法
-            
-          
-        </h1>
-      
-    </div>
-
-    
-      <div class="post-body">
-
-        
-        
-
-        
-          <p>为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。<br>怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#这里是一级标题"><span class="toc-number">1.</span> <span class="toc-text">这里是一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#这里是三级标题"><span class="toc-number">1.0.1.</span> <span class="toc-text">这里是三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#这里是六级标题，就到这里了，木有七级！"><span class="toc-number">1.0.1.0.0.1.</span> <span class="toc-text">这里是六级标题，就到这里了，木有七级！</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol>
+		</div>
+		
+		<p>为什么学习Markdown？别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。<br>怎么学习Markdown？我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
 <p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
 <p>在哪可以使用Markdown？ 你可以在简书、Logdown这样的免费平台用Markdown写博客。如果你愿意折腾，也可以像我一样，使用hexo搭建自己的博客，并用Markdown书写博客，请参考拙作《hexo系列教程》。另外，现在写论文也流行使用Markdown，不学你就out了！<br>怎样开始？打开这个网址，把下面学到的东西在这个里面练习。左侧是Markdown，右侧是实时的显示。<br>还要注意什么？一个效果，有时候可以通过不同的方式生成，比如无序列表可以用- + *。本文从实践出发，只列举最好用的一种。读者也只需要学习一种。</p>
 <p>以下是Markdown代码：</p>
@@ -167,69 +144,271 @@
 <p>分割线用<code>---</code>，注意单独一样，上面必须是一个空行</p>
 <hr>
 <p>更多高级的格式，请果断插入html标签</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
 
-        
-
-      </div>
-    
-
-    
-      <div class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/Markdown/">
-                #Markdown
-              </a>
-            
-          </div>
-        
-
-        
-
-        
-      </div>
-    
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Markdown/">Markdown</a>
   </div>
 
 
-
-  
-
-
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
-   <section class="copyright">All content copyright <a href="/">It's too Magical</a> &copy;  2015 - 
-   &bull;<span class="author">Byron</span>&bull; All rights reserved.</section>
-   <section class="powered-by">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/学习/">学习</a>
 </div>
 
 
-      </div>
-    </div>
 
+<div class="article-share" id="share">
+
+  <div data-url="http://www.ii2m.com/2015/01/28/markdown/" data-title="Markdown语法 | It&#39;s too Magical" data-tsina="null" class="share clearfix">
   </div>
 
-  <script type="text/javascript" src="/vendors/jquery/dist/jquery.min.js"></script>
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/01/28/hexo/" title="Hexo 命令">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  Hexo 命令</span>
+</a>
+</div>
 
 
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $(".fancybox").fancybox();
+<div class="next">
+<a href="/2015/01/23/hello-world/"  title="Hello World">
+ <strong>NEXT:</strong><br/> 
+ <span>Hello World
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+</div>  
+      
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#这里是一级标题"><span class="toc-number">1.</span> <span class="toc-text">这里是一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#这里是三级标题"><span class="toc-number">1.0.1.</span> <span class="toc-text">这里是三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#这里是六级标题，就到这里了，木有七级！"><span class="toc-number">1.0.1.0.0.1.</span> <span class="toc-text">这里是六级标题，就到这里了，木有七级！</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol>
+  </div>
+
+<div id="asidepart">
+<div id="authorInfo">
+	
+		<div class="author-logo"></div>		
+	
+	
+	<section class="author-info">
+		
+			<p> I am Larry Page in Google.</p>
+		
+		
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/1824286621" target="_blank" title="weibo"></a>
+		
+		
+		
+		<a href="https://github.com/lizy0100" target="_blank" title="github"></a>
+		
+		
+	</div>
+</div>
+<aside class="clearfix">
+
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
+		
+			<li><a href="/categories/学习/" title="学习">学习<sup>1</sup></a></li>
+		
+			<li><a href="/categories/工具/" title="工具">工具<sup>1</sup></a></li>
+		
+			<li><a href="/categories/测试/" title="测试">测试<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+  <div class="archiveslist">
+    <p class="asidetitle"><a href="/archives">归档</a></p>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li></ul>
+  </div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+		
+			<li><a href="/tags/Sublime/" title="Sublime">Sublime<sup>1</sup></a></li>
+		
+			<li><a href="/tags/hexo/" title="hexo">hexo<sup>2</sup></a></li>
+		
+		</ul>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  //back to top
+  function backToTop(){
+    var buttonHTML = $("<a href=\"#top\" id=\"back-top\">" + "<span>Back to Top</span></a>");
+    buttonHTML.appendTo($("body"));
+    var buttonToTop = $("#back-top");
+    // hide #back-top first
+    buttonToTop.hide();
+
+    // fade in #back-top
+    $(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                buttonToTop.fadeIn();
+            } else {
+                buttonToTop.fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        buttonToTop.click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
     });
-  </script>
+  }
+  backToTop();
+
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      ta = $('#toc.toc-aside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+
+  var show = true;
+  c.click(function(){
+    if(show == true){
+        a.addClass('fadeOut').css('display', 'none');
+        ta.css('display', 'block').addClass('fadeIn');
+        m.addClass('moveMain');  
+    }else{
+        a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');     
+        ta.css('display', 'none'); 
+        m.removeClass('moveMain');
+        $('#toc.toc-aside').css('display', 'none');
+    }
+    show = !show;
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,240-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
 
 
 
 
 
-</body>
+
+  </body>
 </html>
