@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[It's too Magical]]></title>
-  <subtitle><![CDATA[副标题]]></subtitle>
+  <title><![CDATA[It is too Magical]]></title>
+  <subtitle><![CDATA[My blog by Hexo...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-02-11T13:00:00.698Z</updated>
+  <updated>2015-02-11T13:06:21.262Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
