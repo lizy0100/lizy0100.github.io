@@ -4,12 +4,20 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Docs | It&#39;s too Magical</title>
+    <title>Tinny | It&#39;s too Magical</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Byron">
     
-    <meta name="description" content="Experimental interface preview, not fully tested yet. Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a fo">
+    <meta name="description" content="Tinny
+theme for hexo
+simple theme based on pacman.
+demo
+Installation
+Install
+$ git clone https://github.com/zhanglun/hexo-theme.git
+Enable
+Modify them">
     
     
     
@@ -81,15 +89,15 @@ var _hmt = _hmt || [];
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/01/23/docs/" title="Docs" itemprop="url">Docs</a>
+      <a href="/2015/02/09/Tinny/" title="Tinny" itemprop="url">Tinny</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://www.ii2m.com" title="Byron">Byron</a>
     </p>
   <p class="article-time">
-    <time datetime="2015-01-23T05:56:20.000Z" itemprop="datePublished">1月 23 2015</time>
-    更新日期:<time datetime="2015-02-11T03:59:39.000Z" itemprop="dateModified">2月 11 2015</time>
+    <time datetime="2015-02-09T03:00:20.000Z" itemprop="datePublished">2月 9 2015</time>
+    更新日期:<time datetime="2015-02-11T04:03:50.000Z" itemprop="dateModified">2月 11 2015</time>
     
   </p>
 </header>
@@ -98,22 +106,32 @@ var _hmt = _hmt || [];
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Tinny"><span class="toc-number">1.</span> <span class="toc-text">Tinny</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#theme_for_hexo"><span class="toc-number">1.1.</span> <span class="toc-text">theme for hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Installation"><span class="toc-number">1.2.</span> <span class="toc-text">Installation</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Install"><span class="toc-number">1.2.1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Enable"><span class="toc-number">1.2.2.</span> <span class="toc-text">Enable</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Update"><span class="toc-number">1.2.3.</span> <span class="toc-text">Update</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Configuration"><span class="toc-number">1.3.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What’s_News!"><span class="toc-number">1.4.</span> <span class="toc-text">What’s News!</span></a></li></ol></li></ol>
 		</div>
 		
-		<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a form to compose<br>e-mails …</p>
-<p><strong>Enabled Validations</strong></p>
-<ul>
-<li>Selectable file-size is limited to 2 MB</li>
-</ul>
-<p><strong>What will happen?</strong></p>
-<ul>
-<li>Selecting multiple files</li>
-<li>Instant start</li>
-<li>All files start at once (no queued upload)</li>
-<li>Cancel and remove single file</li>
-<li>Validate size</li>
-</ul>
+		<h2 id="Tinny">Tinny</h2>
+<h3 id="theme_for_hexo">theme for hexo</h3>
+<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
+<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<h3 id="Installation">Installation</h3>
+<h4 id="Install">Install</h4>
+<pre><code>$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/zhanglun/hexo-theme.git
+</code></pre><h4 id="Enable">Enable</h4>
+<p>Modify <code>theme</code> setting in blog folder <code>_config.yml</code> to <code>Tinny</code>.</p>
+<pre><code><span class="attribute">theme</span>: <span class="string">hexo-theme/Tinny</span>
+</code></pre><h4 id="Update">Update</h4>
+<pre><code><span class="built_in">cd</span> themes/hexo-theme
+git pull
+</code></pre><p><strong>please backup your _config.yml file before update.</strong></p>
+<h3 id="Configuration">Configuration</h3>
+<p>Modify settings in the file <code>_config.yml</code></p>
+<p>2014/08/04</p>
+<h3 id="What’s_News!">What’s News!</h3>
+<p><strong>2014/10/18</strong> —- <strong>highlight.js supported!</strong></p>
+<p>you can find “colorscheme” in <code>_config.yml</code>. schemes you can use:</p>
+<pre><code><span class="title">arta</span>, atelier-dune.dark, atelier-dune.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-seaside.dark, atelier-seaside.light, brown_paper, codepen-embed, color-brewer, dark, <span class="default"><span class="keyword">default</span>, docco, far, foundation, github, googlecode, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscasts, rainbow, school_book, solarized_dark, solarized_light, sunburst, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night-eighties, tomorrow-night, vs</span>
+</code></pre><p><code>arta</code>, <code>atelier-dune.dark</code>, <code>atelier-dune.light</code>, <code>atelier-forest.dark</code>, <code>atelier-forest.light</code>, <code>atelier-heath.dark</code>, <code>atelier-heath.light</code>, <code>atelier-lakeside.dark</code>, <code>atelier-lakeside.light</code>, <code>atelier-seaside.dark</code>, <code>atelier-seaside.light</code>, <code>brown_paper</code>, <code>codepen-embed</code>, <code>color-brewer</code>, <code>dark</code>, <code>default</code>, <code>docco</code>, <code>far</code>, <code>foundation</code>, <code>github</code>, <code>googlecode</code>, <code>hybrid</code>, <code>idea</code>, <code>ir_black</code>, <code>kimbie.dark</code>, <code>kimbie.light</code>, <code>magula</code>, <code>mono-blue</code>, <code>monokai</code>, <code>monokai_sublime</code>, <code>obsidian</code>, <code>paraiso.dark</code>, <code>paraiso.light</code>, <code>pojoaque</code>, <code>railscasts</code>, <code>rainbow</code>, <code>school_book</code>, <code>solarized_dark</code>, <code>solarized_light</code>, <code>sunburst</code>, <code>tomorrow-night-blue</code>, <code>tomorrow-night-bright</code>, <code>tomorrow-night-eighties</code>, <code>tomorrow-night</code>, <code>vs</code></p>
+<p>Thank <a href="https://highlightjs.org/" target="_blank" rel="external">highlightjs/</a></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -126,14 +144,14 @@ var _hmt = _hmt || [];
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/测试/">测试</a>
+  <a class="article-category-link" href="/categories/主题/">主题</a>
 </div>
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://www.ii2m.com/2015/01/23/docs/" data-title="Docs | It&#39;s too Magical" data-tsina="null" class="share clearfix">
+  <div data-url="http://www.ii2m.com/2015/02/09/Tinny/" data-title="Tinny | It&#39;s too Magical" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -142,19 +160,11 @@ var _hmt = _hmt || [];
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/01/23/hello-world/" title="Hello World">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  Hello World</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2015/01/23/Tinny/"  title="Tinny">
+<a href="/2015/02/09/docs/"  title="Docs">
  <strong>NEXT:</strong><br/> 
- <span>Tinny
+ <span>Docs
 </span>
 </a>
 </div>
@@ -166,7 +176,7 @@ var _hmt = _hmt || [];
       
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Tinny"><span class="toc-number">1.</span> <span class="toc-text">Tinny</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#theme_for_hexo"><span class="toc-number">1.1.</span> <span class="toc-text">theme for hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Installation"><span class="toc-number">1.2.</span> <span class="toc-text">Installation</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Install"><span class="toc-number">1.2.1.</span> <span class="toc-text">Install</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Enable"><span class="toc-number">1.2.2.</span> <span class="toc-text">Enable</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Update"><span class="toc-number">1.2.3.</span> <span class="toc-text">Update</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Configuration"><span class="toc-number">1.3.</span> <span class="toc-text">Configuration</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What’s_News!"><span class="toc-number">1.4.</span> <span class="toc-text">What’s News!</span></a></li></ol></li></ol>
   </div>
 
 <div id="asidepart">
@@ -218,7 +228,7 @@ var _hmt = _hmt || [];
   
   <div class="archiveslist">
     <p class="asidetitle"><a href="/archives">归档</a></p>
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">6</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a><span class="archive-list-count">4</span></li></ul>
   </div>
 
 

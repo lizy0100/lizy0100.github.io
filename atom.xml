@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's too Magical]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-02-11T04:02:27.823Z</updated>
+  <updated>2015-02-11T04:05:30.644Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
@@ -13,6 +13,78 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Tinny]]></title>
+    <link href="http://www.ii2m.com/2015/02/09/Tinny/"/>
+    <id>http://www.ii2m.com/2015/02/09/Tinny/</id>
+    <published>2015-02-09T03:00:20.000Z</published>
+    <updated>2015-02-11T04:03:50.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Tinny">Tinny</h2>
+<h3 id="theme_for_hexo">theme for hexo</h3>
+<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
+<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<h3 id="Installation">Installation</h3>
+<h4 id="Install">Install</h4>
+<pre><code>$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/zhanglun/hexo-theme.git
+</code></pre><h4 id="Enable">Enable</h4>
+<p>Modify <code>theme</code> setting in blog folder <code>_config.yml</code> to <code>Tinny</code>.</p>
+<pre><code><span class="attribute">theme</span>: <span class="string">hexo-theme/Tinny</span>
+</code></pre><h4 id="Update">Update</h4>
+<pre><code><span class="built_in">cd</span> themes/hexo-theme
+git pull
+</code></pre><p><strong>please backup your _config.yml file before update.</strong></p>
+<h3 id="Configuration">Configuration</h3>
+<p>Modify settings in the file <code>_config.yml</code></p>
+<p>2014/08/04</p>
+<h3 id="What’s_News!">What’s News!</h3>
+<p><strong>2014/10/18</strong> —- <strong>highlight.js supported!</strong></p>
+<p>you can find “colorscheme” in <code>_config.yml</code>. schemes you can use:</p>
+<pre><code><span class="title">arta</span>, atelier-dune.dark, atelier-dune.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-seaside.dark, atelier-seaside.light, brown_paper, codepen-embed, color-brewer, dark, <span class="default"><span class="keyword">default</span>, docco, far, foundation, github, googlecode, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscasts, rainbow, school_book, solarized_dark, solarized_light, sunburst, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night-eighties, tomorrow-night, vs</span>
+</code></pre><p><code>arta</code>, <code>atelier-dune.dark</code>, <code>atelier-dune.light</code>, <code>atelier-forest.dark</code>, <code>atelier-forest.light</code>, <code>atelier-heath.dark</code>, <code>atelier-heath.light</code>, <code>atelier-lakeside.dark</code>, <code>atelier-lakeside.light</code>, <code>atelier-seaside.dark</code>, <code>atelier-seaside.light</code>, <code>brown_paper</code>, <code>codepen-embed</code>, <code>color-brewer</code>, <code>dark</code>, <code>default</code>, <code>docco</code>, <code>far</code>, <code>foundation</code>, <code>github</code>, <code>googlecode</code>, <code>hybrid</code>, <code>idea</code>, <code>ir_black</code>, <code>kimbie.dark</code>, <code>kimbie.light</code>, <code>magula</code>, <code>mono-blue</code>, <code>monokai</code>, <code>monokai_sublime</code>, <code>obsidian</code>, <code>paraiso.dark</code>, <code>paraiso.light</code>, <code>pojoaque</code>, <code>railscasts</code>, <code>rainbow</code>, <code>school_book</code>, <code>solarized_dark</code>, <code>solarized_light</code>, <code>sunburst</code>, <code>tomorrow-night-blue</code>, <code>tomorrow-night-bright</code>, <code>tomorrow-night-eighties</code>, <code>tomorrow-night</code>, <code>vs</code></p>
+<p>Thank <a href="https://highlightjs.org/" target="_blank" rel="external">highlightjs/</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Tinny">Tinny</h2>
+<h3 id="theme_for_hexo">theme for hexo</h3>
+<p>simple theme based on <a href="https://github.com/A-limon/pacman" t]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
+    
+      <category term="主题" scheme="http://www.ii2m.com/categories/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Docs]]></title>
+    <link href="http://www.ii2m.com/2015/02/09/docs/"/>
+    <id>http://www.ii2m.com/2015/02/09/docs/</id>
+    <published>2015-02-09T01:56:20.000Z</published>
+    <updated>2015-02-11T04:04:07.000Z</updated>
+    <content type="html"><![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a form to compose<br>e-mails …</p>
+<p><strong>Enabled Validations</strong></p>
+<ul>
+<li>Selectable file-size is limited to 2 MB</li>
+</ul>
+<p><strong>What will happen?</strong></p>
+<ul>
+<li>Selecting multiple files</li>
+<li>Instant start</li>
+<li>All files start at once (no queued upload)</li>
+<li>Cancel and remove single file</li>
+<li>Validate size</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imag]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
+    
+      <category term="测试" scheme="http://www.ii2m.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[MarkdownEditing:Sublime Text 3 的 Markdown 利器]]></title>
@@ -150,78 +222,6 @@
       <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
     
       <category term="测试" scheme="http://www.ii2m.com/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Docs]]></title>
-    <link href="http://www.ii2m.com/2015/01/23/docs/"/>
-    <id>http://www.ii2m.com/2015/01/23/docs/</id>
-    <published>2015-01-23T05:56:20.000Z</published>
-    <updated>2015-02-11T03:59:39.000Z</updated>
-    <content type="html"><![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a form to compose<br>e-mails …</p>
-<p><strong>Enabled Validations</strong></p>
-<ul>
-<li>Selectable file-size is limited to 2 MB</li>
-</ul>
-<p><strong>What will happen?</strong></p>
-<ul>
-<li>Selecting multiple files</li>
-<li>Instant start</li>
-<li>All files start at once (no queued upload)</li>
-<li>Cancel and remove single file</li>
-<li>Validate size</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imag]]>
-    </summary>
-    
-      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
-    
-      <category term="测试" scheme="http://www.ii2m.com/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Tinny]]></title>
-    <link href="http://www.ii2m.com/2015/01/23/Tinny/"/>
-    <id>http://www.ii2m.com/2015/01/23/Tinny/</id>
-    <published>2015-01-23T05:56:20.000Z</published>
-    <updated>2015-02-11T04:02:13.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Tinny">Tinny</h2>
-<h3 id="theme_for_hexo">theme for hexo</h3>
-<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
-<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
-<h3 id="Installation">Installation</h3>
-<h4 id="Install">Install</h4>
-<pre><code>$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/zhanglun/hexo-theme.git
-</code></pre><h4 id="Enable">Enable</h4>
-<p>Modify <code>theme</code> setting in blog folder <code>_config.yml</code> to <code>Tinny</code>.</p>
-<pre><code><span class="attribute">theme</span>: <span class="string">hexo-theme/Tinny</span>
-</code></pre><h4 id="Update">Update</h4>
-<pre><code><span class="built_in">cd</span> themes/hexo-theme
-git pull
-</code></pre><p><strong>please backup your _config.yml file before update.</strong></p>
-<h3 id="Configuration">Configuration</h3>
-<p>Modify settings in the file <code>_config.yml</code></p>
-<p>2014/08/04</p>
-<h3 id="What’s_News!">What’s News!</h3>
-<p><strong>2014/10/18</strong> —- <strong>highlight.js supported!</strong></p>
-<p>you can find “colorscheme” in <code>_config.yml</code>. schemes you can use:</p>
-<pre><code><span class="title">arta</span>, atelier-dune.dark, atelier-dune.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-seaside.dark, atelier-seaside.light, brown_paper, codepen-embed, color-brewer, dark, <span class="default"><span class="keyword">default</span>, docco, far, foundation, github, googlecode, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscasts, rainbow, school_book, solarized_dark, solarized_light, sunburst, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night-eighties, tomorrow-night, vs</span>
-</code></pre><p><code>arta</code>, <code>atelier-dune.dark</code>, <code>atelier-dune.light</code>, <code>atelier-forest.dark</code>, <code>atelier-forest.light</code>, <code>atelier-heath.dark</code>, <code>atelier-heath.light</code>, <code>atelier-lakeside.dark</code>, <code>atelier-lakeside.light</code>, <code>atelier-seaside.dark</code>, <code>atelier-seaside.light</code>, <code>brown_paper</code>, <code>codepen-embed</code>, <code>color-brewer</code>, <code>dark</code>, <code>default</code>, <code>docco</code>, <code>far</code>, <code>foundation</code>, <code>github</code>, <code>googlecode</code>, <code>hybrid</code>, <code>idea</code>, <code>ir_black</code>, <code>kimbie.dark</code>, <code>kimbie.light</code>, <code>magula</code>, <code>mono-blue</code>, <code>monokai</code>, <code>monokai_sublime</code>, <code>obsidian</code>, <code>paraiso.dark</code>, <code>paraiso.light</code>, <code>pojoaque</code>, <code>railscasts</code>, <code>rainbow</code>, <code>school_book</code>, <code>solarized_dark</code>, <code>solarized_light</code>, <code>sunburst</code>, <code>tomorrow-night-blue</code>, <code>tomorrow-night-bright</code>, <code>tomorrow-night-eighties</code>, <code>tomorrow-night</code>, <code>vs</code></p>
-<p>Thank <a href="https://highlightjs.org/" target="_blank" rel="external">highlightjs/</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="Tinny">Tinny</h2>
-<h3 id="theme_for_hexo">theme for hexo</h3>
-<p>simple theme based on <a href="https://github.com/A-limon/pacman" t]]>
-    </summary>
-    
-      <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
-    
-      <category term="主题" scheme="http://www.ii2m.com/categories/%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
