@@ -4,7 +4,7 @@
   <subtitle><![CDATA[My blog by Hexo...]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-02-11T13:06:21.262Z</updated>
+  <updated>2015-02-11T15:23:08.771Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
@@ -19,11 +19,11 @@
     <link href="http://www.ii2m.com/2015/02/09/Tinny/"/>
     <id>http://www.ii2m.com/2015/02/09/Tinny/</id>
     <published>2015-02-09T03:00:20.000Z</published>
-    <updated>2015-02-11T12:57:36.000Z</updated>
+    <updated>2015-02-11T13:43:26.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Tinny">Tinny</h2>
 <h3 id="theme_for_hexo">theme for hexo</h3>
-<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
-<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<p>*simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
+<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a>*</p>
 <p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
 <h3 id="Installation">Installation</h3>
 <h4 id="Install">Install</h4>
@@ -48,8 +48,8 @@ git pull
     <summary type="html">
     <![CDATA[<h2 id="Tinny">Tinny</h2>
 <h3 id="theme_for_hexo">theme for hexo</h3>
-<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
-<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<p>*simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
+<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a>*</p>
 <p><em>以上是摘要&gt;&gt;]]>
     
     </summary>
