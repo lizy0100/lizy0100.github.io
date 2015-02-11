@@ -4,7 +4,7 @@
   <subtitle><![CDATA[副标题]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.ii2m.com/"/>
-  <updated>2015-02-11T10:19:11.880Z</updated>
+  <updated>2015-02-11T13:00:00.698Z</updated>
   <id>http://www.ii2m.com/</id>
   
   <author>
@@ -19,11 +19,12 @@
     <link href="http://www.ii2m.com/2015/02/09/Tinny/"/>
     <id>http://www.ii2m.com/2015/02/09/Tinny/</id>
     <published>2015-02-09T03:00:20.000Z</published>
-    <updated>2015-02-11T04:03:50.000Z</updated>
+    <updated>2015-02-11T12:57:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Tinny">Tinny</h2>
 <h3 id="theme_for_hexo">theme for hexo</h3>
 <p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
 <p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
 <h3 id="Installation">Installation</h3>
 <h4 id="Install">Install</h4>
 <pre><code>$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/zhanglun/hexo-theme.git
@@ -47,7 +48,10 @@ git pull
     <summary type="html">
     <![CDATA[<h2 id="Tinny">Tinny</h2>
 <h3 id="theme_for_hexo">theme for hexo</h3>
-<p>simple theme based on <a href="https://github.com/A-limon/pacman" t]]>
+<p>simple theme based on <a href="https://github.com/A-limon/pacman" target="_blank" rel="external">pacman</a>.</p>
+<p><a href="http://zhanglun.github.io/" target="_blank" rel="external">demo</a></p>
+<p><em>以上是摘要&gt;&gt;]]>
+    
     </summary>
     
       <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
@@ -61,8 +65,9 @@ git pull
     <link href="http://www.ii2m.com/2015/02/09/docs/"/>
     <id>http://www.ii2m.com/2015/02/09/docs/</id>
     <published>2015-02-09T01:56:20.000Z</published>
-    <updated>2015-02-11T04:04:07.000Z</updated>
+    <updated>2015-02-11T12:57:26.000Z</updated>
     <content type="html"><![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a form to compose<br>e-mails …</p>
+<p><em>以上是摘要&gt;&gt;<a id="more"></a>以下是全文</em></p>
 <p><strong>Enabled Validations</strong></p>
 <ul>
 <li>Selectable file-size is limited to 2 MB</li>
@@ -77,7 +82,9 @@ git pull
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imag]]>
+    <![CDATA[<p><em>Experimental interface preview, not fully tested yet.</em> Inspired by a real-world usage, used in a well-known web-application. Imagine it wrapped in a form to compose<br>e-mails …</p>
+<p><em>以上是摘要&gt;&gt;]]>
+    
     </summary>
     
       <category term="hexo" scheme="http://www.ii2m.com/tags/hexo/"/>
