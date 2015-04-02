@@ -1,0 +1,14 @@
+.paramDiv{ width: 100%; min-width: 1190px; background: #fff; position: relative; }
+.paramDiv .param{ width: 945px; margin: 0 auto; padding-top: 105px;}
+.param .title{ color: #303030; font-size: 38px; border-bottom: 1px solid #f1f1f1; padding: 0 10px 15px;}
+.param .con{ overflow: hidden; padding-bottom: 20px; border-bottom: 1px solid #f1f1f1; }
+.param .con .t{ font-weight: bold; font-size: 16px; color: #4c4c4c; padding:10px;}
+.param .con .l{ float: left; width: 140px; padding:10px;}
+.param .con .r{ float: left; padding:10px;}
+.param .con  p{ font-size: 13px; color: #4c4c4c; margin-bottom: 30px; }
+.param .con .img{ float: left; margin-left: 60px;}
+.param .con .bold{ font-weight: bold;}
+.param .con .mbot{ margin-bottom: 90px;}
+
+.param .con_p p{ margin-bottom: 20px;}
+.param .con_n p{ margin-bottom: 0px;}

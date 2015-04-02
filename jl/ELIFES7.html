@@ -1,45 +1,423 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>TEST</title>
+		<title>金品质 立天下</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/param.css" rel="stylesheet">
+		<script>
+		function hidediv()
+		{
+			$("#gndiv").show();
+			$("#tjdiv").hide();
+			$("#csdiv").hide();
+		}
+		</script>
 	</head>
-	<body>
-		<div class="navbar-wrapper">
+	<body onLoad="hidediv()">
+		<div class="navbar-wrapper" style="height:50px;">
 			<div class="container">
 				<nav class="navbar navbar-static-top">
 					<div class="container">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><i class="glyphicon glyphicon-home"></i>&nbsp;&nbsp;&nbsp;&nbsp;ELIFE S7</a>
+							<a class="navbar-brand" href="index.html"><i class="glyphicon glyphicon-home"></i><center>ELIFE S7<center></a>
 						</div>
 					</div>
 				</nav>
 			</div>
 		</div>
 		<div>
-			<ul class="nav nav-tabs">
-				<li role="presentation" class="active"><a href="#">功能</a></li>
-				<li role="presentation"><a href="#">图集</a></li>
-				<li role="presentation"><a href="#">参数</a></li>
+			<ul class="nav nav-pills">
+				<li role="presentation"><a href="#" onclick="showdiv('gndiv')">功能</a></li>
+				<li role="presentation"><a href="#" onclick="showdiv('tjdiv')">图集</a></li>
+				<li role="presentation"><a href="#" onclick="showdiv('csdiv')">参数</a></li>
 			</ul>
 		</div>
 		
-		<div class="container marketing">
+		<div class="container marketing" id="gndiv">  
+			<div class="row">
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<img src="img/ELIFES7_gn1.jpg" alt="" width="100%" height="100%">
+					</div>
+					<div style="position:absolute;top:20px;right:0px;z-inden:2;">
+						<br><br>
+						<h3>薄至完美</h3>
+						<p>S7机身薄至5.5mm</p>
+						<p>这一次，我们“不单薄”</p>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<div style="position:relative;z-inden:2;">
+							<center>
+								<h3>双卡双待，移动、联通双4G</h3>
+								<p>没钱也可以任性，一款手机满足你的所有沟通需求，双卡双待，双4G，移动、联通任你</p>
+								<p>随意切换，质量与高速你都可以拥有。</p>
+							</center>
+						</div>
+						<div style="position:relative;z-inden:2;">
+							<img src="img/ELIFES7_gn2-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:40%;right:10%;z-inden:2;">
+							<center>
+								<img src="img/ELIFES7_gn2-2.jpg" alt="" width="50%" height="50%">
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<div style="position:relative;z-inden:1;">
+							<img src="img/ELIFES7_gn3-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:0px;z-inden:2;">
+							<center>
+				  				<p style="color:white">Hi-Fi级音乐体验</p>
+				  				<p style="color:white">最高采样率为192k，最大数据处理能力24bit，SNR为105，THD为90，专业级发烧Hi-Fi</p>
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;=z-inden:1;">
+						<div style="position:relative;top:0px;z-inden:1;">
+							<img src="img/ELIFES7_gn4-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:0px;right:10%;z-inden:2;">
+							<center>
+								<p>定制Hi-Fi级专业耳机 </p>
+				  				<p>为你的每一次听音带来至臻完美的享受。</p>
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<div style="position:relative;z-inden:2;">
+							<img src="img/ELIFES7_gn5-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:10%;z-inden:2;">
+							<center>
+								<img src="img/ELIFES7_gn5-2.jpg" alt="" width="50%" height="50%">
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<div style="position:relative;z-inden:2;">
+							<img src="img/ELIFES7_gn6-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:10%;z-inden:2;">
+							<center>
+								<img src="img/ELIFES7_gn6-2.jpg" alt="" width="50%" height="50%">
+							</center>
+						</div>
+					</div>
+				</div>
+				
+				<div style="position:relative">
+					<div style="position:relative;top:0px;left:0px;z-inden:1;">
+						<div style="position:relative;z-inden:2;">
+							<img src="img/ELIFES7_gn7-1.jpg" alt="" width="100%" height="100%">
+						</div>
+						<div style="position:absolute;top:40%;left:40%;z-inden:2;">
+							<center>
+								<img src="img/ELIFES7_gn7-2.jpg" alt="" width="40%" height="40%">
+							</center>
+						</div>
+						<div style="position:absolute;top:10%;right:10%;z-inden:2;">
+							<center>
+								<p>5.5mm超薄机身<br>2750mAh大容量电池</p>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container marketing" id="tjdiv">
+			<div class="row">
+				<div>
+					<img src="img/ELIFES7_tj1.jpg" alt="" width="100%" height="100%">
+				</div>
+				<div>
+					<img src="img/ELIFES7_tj2.jpg" alt="" width="100%" height="100%">
+				</div>				
+				<div>
+					<img src="img/ELIFES7_tj3.jpg" alt="" width="100%" height="100%">
+				</div>
+				<div>
+					<img src="img/ELIFES7_tj4.jpg" alt="" width="100%" height="100%">
+				</div>
+				<div>
+					<img src="img/ELIFES7_tj5.jpg" alt="" width="100%" height="100%">
+				</div>
+				<div>
+					<img src="img/ELIFES7_tj6.jpg" alt="" width="100%" height="100%">
+				</div>				
+			</div>
+		</div>
+		
+		<div class="container marketing" id="csdiv">
+			<div class="param" style="width:980px;">
+				<div class="title">详细参数</div>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div >
-			<img src="img/ELIFES7_gn1.jpg" alt="" width="100%" height="100%">
-        </div>
-		<br>
-        <div class="col-lg-4">
-			<center><img src="img/ELIFES7_gn2.png" alt="" width="280" height=""></center>
-        </div>
-      </div>
+				<div class="con">
+					<div class="t">外观</div>
+					<div class="l">
+						<p>颜色</p>
+						<p>外观尺寸</p>
+						<p>重量</p>
+					</div>
+					<div class="r">
+						<p>洛杉矶夜黑，极地阳光白，马尔代夫蓝</p>
+						<p>148.8mm × 72.4mm × 5.5mm</p>
+						<p>126.5g</p>
+					</div>
+				</div>
+				
+				<div class="con">
+					<div class="t">基本信息</div>
+					<div class="l">
+						<p>上市时间</p>
+						<p class="mbot">操作系统</p>
+						<p class="mbot">CPU</p>
+						<p>内存</p>
+					</div>
+					<div class="r">
+						<p>2015年3月</p>
+						<p class="mbot">Amigo3.0 (基于Android 5.0)</p>
+						<p class="bold mbot" style="font-weight:bold;">MT6752 八核1.7GHz、64位运算</p>
+						<p class="bold" style="font-weight:bold;">2GB RAM+16GB ROM</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">拍照</div>
+					<div class="l">
+						<p>后置摄像头</p>
+						<p>前置摄像头</p>
+						<p>闪光灯</p>
+						<p>拍照模式</p>
+						<p>对焦方式</p>
+						<p>ISO感光度</p>
+						<p>拍照特性</p>
+					</div>
+					<div class="r">
+						<p>1300万像素AF</p>
+						<p>800万像素</p>
+						<p>单颗LED补光灯</p>
+						<p>Image+影像系统、魔术对焦、随心拍</p>
+						<p>支持自动对焦、手动触摸对焦并支持脸部追踪、对焦测光分离</p>
+						<p>AUTO、100、200、400、800、1600</p>
+						<p>美肤级别调节棒+自定义美颜（磨皮、大眼、瘦脸、美白），实时对比；前拍镜像，普通拍照/手势拍照/触屏拍照/声控拍照</p>
+					</div>
+				</div>
+
+				<div class="con con_n">
+					<div class="t">摄像</div>
+					<div class="l">
+						<p>视频拍摄</p>
+					</div>
+					<div class="r">
+						<p>1300万的像素、1080P</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">屏幕</div>
+					<div class="l">
+						<p>屏幕尺寸</p>
+						<p>分辨率</p>
+						<p>屏幕类型</p>
+						<p>屏幕材质</p>
+					</div>
+					<div class="r">
+						<p>5.2英寸</p>
+						<p>FHD 1920*1080</p>
+						<p>电容触摸屏，多点触控</p>
+						<p>Super AMOLED屏、康宁大猩猩第三代保护玻璃</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">网络参数</div>
+					<div class="l">
+						<p>网络类型</p>
+						<p>网络制式</p>
+					</div>
+					<div class="r">
+						<p>移动4G、联通4G双卡双待；TD-LTE/LTE-FDD/TD-SCDMA/WCDMA/GSM   </p>
+						<p>TD-LTE  B38/B39/B40</p>
+						<p>LTE-FDD  B3/B7  </p>
+						<p>TD-SCDMA B34/B39</p>
+						<p>WCDMA   B1/B2/B5</p>
+						<p>GSM B2/B3/B5/B8</p>
+					</div>
+				</div>
+
+				<div class="con con_n">
+					<div class="l t">
+						<p style="font-size:16px;">存储</p>
+					</div>
+					<div class="r">
+						<p>不支持Micro SD卡扩展</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">多媒体</div>
+					<div class="l">
+						<p>音乐播放</p>
+						<p>视频播放</p>
+						<p>图片播放</p>
+						<p>Flash播放</p>
+						<p>收音机</p>
+						<p>录音机</p>
+						<p>通话录音</p>
+					</div>
+					<div class="r">
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">电池</div>
+					<div class="l">
+						<p>容量</p>
+						<p>类型</p>
+						<p>理论通话时间</p>
+						<p>互联网使用时间</p>
+						<p>视频播放时间</p>
+						<p>音频播放时间</p>
+					</div>
+					<div class="r">
+						<p>2750mAh</p>
+						<p>聚合物锂离子电池（内置）</p>
+						<p>25H</p>
+						<p>10H</p>
+						<p>11H</p>
+						<p>40H</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">连接性</div>
+					<div class="l">
+						<p>蓝牙</p>
+						<p>接口</p>
+						<p>耳机接口</p>
+						<p>WiFi/WAPI</p>
+					</div>
+					<div class="r">
+						<p>支持，BT4.0</p>
+						<p>Micro USB 2.0，支持OTG功能</p>
+						<p>3.5mm耳机接口</p>
+						<p>WIFI Display、WIFI Direct</p>
+					</div>
+				</div>
+
+				<div class="con con_n">
+					<div class="t">定位功能</div>
+					<div class="l">
+						<p>GPS导航</p>
+					</div>
+					<div class="r">
+						<p>内置 GPS导航功能</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">输入</div>
+					<div class="l">
+						<p>键盘类型</p>
+						<p>输入方式</p>
+					</div>
+					<div class="r">
+						<p>虚拟QWERTY键盘键、9键、手写键盘、全键盘</p>
+						<p>多点触控</p>
+					</div>
+				</div>
+
+				<div class="con con_p">
+					<div class="t">感应器</div>
+					<div class="l">
+						<p>陀螺仪</p>
+						<p>光线感应器</p>
+						<p>重力传感器</p>
+						<p>距离传感器</p>
+						<p>电子罗盘</p>
+						<p>指南针</p>
+					</div>
+					<div class="r">
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+						<p>支持</p>
+					</div>
+				</div>
+
+				<div class="con con_p" style="border-bottom:none;">
+					<div class="t">出厂标配</div>
+					<div class="l">
+						<p>主机</p>
+						<p>充电器</p>
+						<p>数据线</p>
+						<p>耳机</p>
+					</div>
+					<div class="r">
+						<p>1</p>
+						<p>1</p>
+						<p>1</p>
+						<p>1</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
 		
 		<script src="js/jquery-1.11.2.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+		function showdiv(who)
+		{
+			if (who == "gndiv")
+			{
+				$("#gndiv").show();
+				$("#tjdiv").hide();
+				$("#csdiv").hide();
+			}
+			else if (who == "tjdiv")
+			{
+				$("#gndiv").hide();
+				$("#tjdiv").show();
+				$("#csdiv").hide();
+			}
+			else if (who == "csdiv")
+			{
+				$("#gndiv").hide();
+				$("#tjdiv").hide();
+				$("#csdiv").show();
+			}
+
+		}
+		</script>
     </body>
 </html>
